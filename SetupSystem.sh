@@ -5,7 +5,7 @@ clear
 echo "System setup/update script"
 sleep 1
 
-if [ $1 = "u" ]
+if [ "$1" = "u" ]
 then
 	echo "Update|Upgrade|Autoremove"
 	yes | sudo apt update 
