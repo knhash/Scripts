@@ -21,10 +21,10 @@ case $input in
 	[nN] ) ;;
 	[yY]|"" ) 
 		echo "Downloading..."
-		wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb
+		wget https://download.sublimetext.com/sublime-text_build-3143_amd64.deb
 		echo "Installing..."
-		sudo dpkg -i ~/Downloads/sublime-text_build-3126_amd64.deb
-		rm sublime-text_build-3126_amd64.deb*
+		sudo dpkg -i ~/Downloads/sublime-text_build-3143_amd64.deb
+		rm sublime-text_build-3143_amd64.deb*
 		;;
 esac
 
